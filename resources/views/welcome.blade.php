@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Welcome to Single Page Application</div>
+                <div class="title">Welcome to Single Page Application by KnowTrichy</div>
             </div>
         </div>
     </body>
