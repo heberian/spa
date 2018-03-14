@@ -11,6 +11,8 @@
 |
 */
 
+
 Route::get('/',[ 'middleware' => 'auth.basic',function () {
+
     return view('welcome');
 }]);
