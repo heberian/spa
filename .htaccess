@@ -4,7 +4,10 @@
     </IfModule>
 
     RewriteEngine On
-
+    
+    # Redirect sample
+    Redirect 301 /not-found/ http://spa.knowtrichy.in
+    
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)/$ /$1 [L,R=301]

@@ -12,7 +12,7 @@
 */
 
 
-Route::get('/',[ 'middleware' => 'auth.basic',function () {
+Route::get('/',function () {
 
     return view('welcome');
-}]);
+});
